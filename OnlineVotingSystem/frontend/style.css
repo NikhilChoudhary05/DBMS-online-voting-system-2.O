@@ -1,0 +1,18 @@
+body { font-family: Arial, sans-serif; background-color: #f0f2f5; margin: 0; padding: 0; }
+
+.container { width: 400px; margin: 60px auto; padding: 30px; background-color: white; border-radius: 12px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+
+h2 { text-align: center; color: #333; margin-bottom: 20px; }
+
+form label { display: block; margin: 10px 0 5px; color: #333; }
+
+form input, form select { width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 8px; font-size: 16px; }
+
+button { width: 100%; padding: 10px; background-color: #0066cc; color: white; font-size: 16px; border: none; border-radius: 8px; cursor: pointer; transition: background-color 0.3s ease; }
+
+button:hover { background-color: #004c99; }
+
+.success { color: green; text-align: center; margin-top: 15px; }
+
+.error { color: red; text-align: center; margin-top: 15px; }
+

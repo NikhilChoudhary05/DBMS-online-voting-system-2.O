@@ -1,0 +1,13 @@
+<!DOCTYPE html> <html> <head> <meta charset="UTF-8" /> <title>Online Voting System</title> <link rel="stylesheet" href="style.css" /> </head> <body> <div class="container"> <h2>Vote Here 🗳️</h2> <form action="../backend/vote.php" method="POST"> <label for="voter_id">Voter ID:</label> <input type="number" name="voter_id" id="voter_id" required />
+  <label for="vote_choice">Select Candidate:</label>
+  <select name="vote_choice" id="vote_choice" required>
+    <option value="">-- Choose --</option>
+    <option value="Candidate A">Candidate A</option>
+    <option value="Candidate B">Candidate B</option>
+    <option value="Candidate C">Candidate C</option>
+  </select>
+
+  <button type="submit">Submit Vote</button>
+</form>
+</div>
+</body></html>
